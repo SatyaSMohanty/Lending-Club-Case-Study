@@ -3,26 +3,28 @@
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
+* [General Info](The aim of the study is to figure out the driver variables that clearly indicates which set of borrowers with specific set of pre-requisite criteria attached to them needs to be avoided at the time of onboarding for a fresh loan
+)
+* [Technologies Used](Python and power point)
+* [Conclusions](Rate and Term must be determined based on the criteria mentioned)
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The aim of the study is to figure out the driver variables that clearly indicates which set of borrowers with specific set of pre-requisite criteria attached to them needs to be avoided at the time of onboarding for a fresh loan
+- Data Set provide by the Lending Club .
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Based on the following 3 criteria we should decide on the rate and term for a loan and go/no-go scenario:
+ -Home Ownership
+ - Grades
+ - Annual Income
+- Since the rates are linked to grades we should not give long term loans to them, we should restrict them to lower terms.
+ - If the home ownership is not clearly defined we should restrict to a short term loan
+
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
